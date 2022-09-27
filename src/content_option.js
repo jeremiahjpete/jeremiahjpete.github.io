@@ -8,13 +8,18 @@ const introdata = {
     title: "Hi, I’m Jeremiah!",
     animated: {
         first: "I love programming",
-        second: "I make digital art",
+        second: "May the force be with you",
         third: "I develop mobile apps",
         fourth: "I'm a research engineer",
-        fifth: "Video games are my passion"
+        fifth: "I love video games",
+        sixth: "Go pokes!",
+        seventh: "With great power comes great responsibility",
+        eigth: "I make digital art",
+        ninth: "See you space cowboy...",
+        tenth: "My favorite movie is Shrek",
     },
     description: "OSU grad with a degree in Computer Science and a love for creating art!",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://i.imgur.com/AxzNwxk.jpg",
 };
 
 const dataabout = {
@@ -57,7 +62,7 @@ const skills = [
     },
     {
         name: "React",
-        value: 70,
+        value: 75,
     },
     {
         name: "Java",
@@ -75,6 +80,10 @@ const skills = [
         name: "Graphic Design (Photoshop & Illustrator)",
         value: 85,
     },
+    {
+        name: "Math (Algebra, Calculus, Cryptography, Geometry, etc.) ",
+        value: 95,
+    },
 ];
 
 const services = [{
@@ -89,69 +98,73 @@ const services = [{
         title: "Graphic Design/Illustration",
         description: "Using Adobe's products (Photoshop, Illustrator), I can develop various graphics that fit the scope of what is envisioned, including logos, text, and app design.",
     },
+    {
+        title: "Tutor",
+        description: "Need help with a subject? I'm your guy. My tutoring services include but are not limited to: Various maths (Ex: Algebra and Geometry), English/Writing, Coding, and Statistics."
+    },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+const dataportfolio = [
+    {
+        img: "https://i.imgur.com/67LQRTQ.jpg",
+        desctiption: "A remake of a Venom comic cover",
+        link: "https://drive.google.com/file/d/1ROveV31wI2DNaTjIU4mIHTbh0BTQ0ZiL/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/mIoHAes.jpg",
+        desctiption: "Yu-Gi-Oh card inspired after watching the anime",
+        link: "https://drive.google.com/file/d/1RKrTJriox-iwwhMVLoDosUEtktYbhJry/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/i1XRZIy.jpg",
+        desctiption: "Spider-Man Unlimited drawing for fun",
+        link: "https://drive.google.com/file/d/1Rygqqcts4EhqfGnIiUKMwZ8nTjx-9iPF/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/2yvw89m.jpg",
+        desctiption: "Darth Vader comic cover remake",
+        link: "https://drive.google.com/file/d/1ROveV31wI2DNaTjIU4mIHTbh0BTQ0ZiL/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/lueSz4Q.jpg",
+        desctiption: "Stewie Griffin meets the Akatsuki",
+        link: "https://drive.google.com/file/d/1RmjOlfkNDZsjCFOOOPDpmozsUsutkeBC/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/MU2qmOV.png",
+        desctiption: "Grayscale black suit Spider-Man",
+        link: "https://drive.google.com/file/d/1S28JhOQrwZmD1oE53zeHkOV3KdGmSn-p/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/KIcSJMS.jpg",
+        desctiption: "Gray & Blue Pikachu",
+        link: "https://drive.google.com/file/d/1RkCzQm_8Pm3dLiPgLPR-Bswqnbirj3OE/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/1RMi0ya.jpg",
+        desctiption: "Gohan & Piccolo remake",
+        link: "https://drive.google.com/file/d/1R377F8fYGC3V6NxnxeJh461ldpSBk83s/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/hk2R5Gf.jpg",
+        desctiption: "Sonic, Shadow, and Silver",
+        link: "https://drive.google.com/file/d/1RmCg3EmVfUP-wHHCIK7nhFgO_pYq4veb/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/GYtwQM5.jpg",
+        desctiption: "Naruto collage",
+        link: "https://drive.google.com/file/d/1Ry8Fp1jTXh9LP_nBKs7pUiKs7vQg6kNO/view?usp=sharing",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.imgur.com/9TzpKCe.jpg",
+        desctiption: "Spider-Man comic panel remake",
+        link: "https://drive.google.com/file/d/1R5MZVnOZxQfa4x7qpx2ww5aL0FxlMQsW/view?usp=sharing",
     },
+    {
+        img: "https://i.imgur.com/IjUpGax.jpg",
+        description: "Miles Morales Remix Drawing",
+        link: "https://drive.google.com/file/d/1RtNdNBsC3T8Lks7KSTqql_X1D8yvjcSP/view?usp=sharing"
+    }
 ];
 
 const contactConfig = {
@@ -168,8 +181,9 @@ const socialprofils = {
     github: "https://github.com/jjp2767",
     facebook: "https://m.facebook.com/100006789518676",
     linkedin: "https://linkedin.com/in/jeremiah-pete/",
-    twitter: "https://twitter.com",
-    youtube: "https://youtube.com",
+    twitter: "https://twitter.com/JeremiahJPete",
+    xbox: "https://account.xbox.com/en-us/Profile?xr=mebarnav&rtc=1",
+    playstation: "https://psnprofiles.com/JaCrispyPete",
     twitch: "https://twitch.com/itsjuicysage",
 };
 export {
