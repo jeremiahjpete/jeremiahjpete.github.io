@@ -168,13 +168,13 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "jeremiahpete@outlook.com",
+    YOUR_EMAIL: "jeremiahjpete@gmail.com",
     description: "Feel free to email me with any questions, comments, or concerns you may have and I'll get back to you as soon as possible!",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_5bwtv59",
+    YOUR_TEMPLATE_ID: "template_pcxiigo",
+    YOUR_USER_ID: "Hrw2BMftwTrjVDbwd",
 };
 
 const socialprofils = {
