@@ -178,7 +178,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/jjp2767",
+    github: "https://github.com/jeremiahjpete",
     facebook: "https://m.facebook.com/100006789518676",
     linkedin: "https://linkedin.com/in/jeremiah-pete/",
     twitter: "https://twitter.com/JeremiahJPete",
