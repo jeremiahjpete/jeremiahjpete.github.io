@@ -7,19 +7,19 @@ const meta = {
 const introdata = {
     title: "Hi, I’m Jeremiah!",
     animated: {
-        first: "I love programming",
-        second: "May the force be with you",
-        third: "I develop mobile apps",
-        fourth: "I'm a research engineer",
-        fifth: "I love video games",
-        sixth: "Go pokes!",
-        seventh: "With great power comes great responsibility",
-        eigth: "I make digital art",
-        ninth: "See you space cowboy...",
-        tenth: "My favorite movie is Shrek",
+        first: "I love programming...",
+        second: "May the force be with you...",
+        third: "I develop mobile apps...",
+        fourth: "I'm a research engineer...",
+        fifth: "I wear a size 18 shoe...",
+        sixth: "Go pokes!...",
+        seventh: "With great power comes great responsibility...",
+        eigth: "I make digital art...",
+        ninth: "I love video games...",
+        tenth: "My favorite movie is Shrek...",
     },
     description: "OSU grad with a degree in Computer Science and a love for creating art!",
-    your_img_url: "https://i.imgur.com/AxzNwxk.jpg",
+    your_img_url: "https://media.giphy.com/media/dJo9h2zrdANo1GO3pd/giphy.gif",
 };
 
 const dataabout = {
@@ -104,6 +104,41 @@ const services = [{
     },
 ];
 
+const pricing = [{
+    title: "Digital Drawings (Customs Included)",
+    description: "Base Price: $20/each",
+},
+{
+    title: "Art Prints",
+    description: "Base Cost: $30/each",
+},
+{
+    title: "Mobile/PC Apps",
+    description: "E-mail for pricing (varies too great for base price)",
+},
+{
+    title: "Websites (Design/Layout Only)",
+    description: "Base Cost: $300 for Single Page website, +$50/each for every other page",
+},
+{
+    title: "Logos",
+    description: "Base Cost: $15/each",
+},
+{
+    title: "Tutoring",
+    description: "Base Cost: $20/hour"
+},
+{
+    title: "Business Cards (Design/Format Included)",
+    description: "Base Cost: $50/100 cards"
+},
+];
+
+const dataprices = {
+    title: "About My Prices",
+    aboutme: "Many of my prices vary depending on the complexity of the job required, and as such the prices listed are the amount that each task will start as, and they are subject to change. As always, feel free to reach out for any questions you may have.",
+};
+
 const dataportfolio = [
     {
         img: "https://i.imgur.com/67LQRTQ.jpg",
@@ -170,7 +205,7 @@ const dataportfolio = [
 const contactConfig = {
     YOUR_EMAIL: "jeremiahjpete@gmail.com",
     description: "Feel free to email me with any questions, comments, or concerns you may have and I'll get back to you as soon as possible!",
-    // creat an emailjs.com account 
+    // emailjs
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_5bwtv59",
     YOUR_TEMPLATE_ID: "template_pcxiigo",
@@ -189,10 +224,12 @@ const socialprofils = {
 export {
     meta,
     dataabout,
+    dataprices,
     dataportfolio,
     worktimeline,
     skills,
     services,
+    pricing,
     introdata,
     contactConfig,
     socialprofils,
